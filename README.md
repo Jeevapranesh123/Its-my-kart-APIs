@@ -114,7 +114,7 @@ DELETE /students/60b9b0b9b8b7a3b9b8b7a3b9
 
 ### Postman Collection
 
-You can also use the provided Postman collection to test the API. Download the collection JSON file from [here](link-to-download-postman-collection) and import it into your Postman app.
+You can also use the provided Postman collection to test the API. Download the collection JSON file from [here](Its-My-Cart.postman_collection.json) and import it into your Postman app.
 
 The collection includes pre-configured requests for each endpoint along with example payloads.
 
