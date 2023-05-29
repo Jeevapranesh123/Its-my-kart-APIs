@@ -118,8 +118,11 @@ You can also use the provided Postman collection to test the API. Download the c
 
 The collection includes pre-configured requests for each endpoint along with example payloads.
 
+The url in postman starts with env variable ```{{baseUrl}}```.
+
 Create a Environment variable ```baseUrl``` and set it to ```http://localhost:9000``` for pre-configured test or  ```https://``` depending on your deployment.
 
+Change the postman environment to the create environment variable to test the collection.
 
 ## Contributing
 
