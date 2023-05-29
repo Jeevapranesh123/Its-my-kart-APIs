@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "09f4c53e-d3e5-4fcf-8d39-2cc563b882d4",
+		"name": "Its-my-kart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14844049"
+	},
+	"item": [
+		{
+			"name": "Create Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Jeeva Pranesh\",\n    \"regid\": \"20BEC1269\",\n    \"age\":\"20\",\n    \"grade\":\"B.Tech\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/students/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/students/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Student",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"grade\":\"M.Tech\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/students/20BEC1269",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students",
+						"20BEC1269"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/students/20BEC1269",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students",
+						"20BEC1269"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/students/20BEC1269",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students",
+						"20BEC1269"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

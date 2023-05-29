@@ -46,6 +46,12 @@ The nodejs server will start at port 9000. Head to [http://127.0.0.1:9000](http:
    docker-compose up
 ```
 
+The server should be running on [http://localhost:3000](http://localhost:3000).
+
+Also the server is running in cloud on [https://]
+
+
+
 ## Usage
 
 ## Usage
@@ -108,6 +114,36 @@ Content-Type: application/json
 ```http
 DELETE /students/60b9b0b9b8b7a3b9b8b7a3b9
 ```
+
+### Postman Collection
+
+You can also use the provided Postman collection to test the API. Download the collection JSON file from [here](link-to-download-postman-collection) and import it into your Postman app.
+
+The collection includes pre-configured requests for each endpoint along with example payloads.
+
+#### Importing the Postman Collection
+
+To import the Postman collection and start using it to test the API:
+
+1. Download the collection JSON file from [here](link-to-download-postman-collection).
+
+2. Open Postman and click on the "Import" button in the top-left corner of the app.
+
+3. In the Import modal, click on the "Upload Files" tab and select the downloaded JSON file.
+
+4. Once the collection is imported, you will see the "Student Management System" collection in your Postman sidebar.
+
+5. Expand the collection to see the available requests for each endpoint.
+
+
+## Contributing
+
+Contributions are welcome! If you find any issues or want to enhance the functionality of this project, feel free to open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 ## Contributing
 
