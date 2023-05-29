@@ -38,7 +38,7 @@ Make sure you have the following software installed on your machine:
 ```bash
    npm start
 ```
-The nodejs server will start at port 9000. Head to `http://127.0.0.1:9000` to test the APIs.
+The nodejs server will start at port 9000. Head to (http://127.0.0.1:9000)[http://127.0.0.1:9000] to test the APIs.
 
 5. For seamless Installation and Deployment use the Dockerfile and docker-compose.yml file.
 
